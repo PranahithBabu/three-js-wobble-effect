@@ -1,0 +1,29 @@
+{
+  "name": "audio",
+  "version": "1.0.0",
+  "description": "How To Create A 3D Audio Visualizer Using Three.js https://youtu.be/qDIF2z_VtHs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "pranahith",
+  "license": "ISC",
+  "dependencies": {
+    "audio": "file:",
+    "cords": "^1.0.4",
+    "cors": "^2.8.5",
+    "dat.gui": "^0.7.9",
+    "express": "^4.21.1",
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.4.0",
+    "parcel": "^2.7.0",
+    "parcel-reporter-static-files-copy": "^1.3.4"
+  },
+  "staticFiles": {
+    "staticOutPath": "assets"
+  }
+}
