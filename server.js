@@ -10,7 +10,7 @@ app.use(cors({
 }));
 
 app.get('/audio-file-exists', (req, res) => {
-  const filePath = //filePath;
+  const filePath = "static/audio_file.mp3";
 
   fs.stat(filePath, (err, stats) => {
     if (err) {
