@@ -14,6 +14,11 @@ An elegant and immersive **3D wobble animation** built with [Three.js](https://t
 
 ---
 
+## 🎬 Demonstration
+![Audio visualizer demo](Audio visualizer recording.gif)
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
@@ -28,15 +33,22 @@ npm install
 ```
 
 ### 3. Run the development server
+#### Backend
 ```bash
-npm run dev
+npm start
 ```
-Visit http://localhost:3000 to see the effect in action!
+#### Frontend
+```bash
+npx parcel ./src/index.html
+```
+Visit http://localhost:1234 to see the effect in action!
 
 ## 🛠️ Built With
 - Three.js
 - GLSL shaders (vertex + fragment)
 - Vite (for fast dev setup)
+
+---
 
 ## 🎯 Use Cases
 - Voice interface visual feedback (e.g., assistants, bots)
