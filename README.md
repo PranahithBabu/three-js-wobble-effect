@@ -15,8 +15,9 @@ An elegant and immersive **3D wobble animation** built with [Three.js](https://t
 ---
 
 ## 🎬 Demonstration
-![Audio visualizer demo](audio_viz_demo.gif)
-
+<div align="center">
+  <img src="audio_viz_demo.gif" alt="Audio visualizer demo" />
+</div>
 ---
 
 ## 🚀 Getting Started
